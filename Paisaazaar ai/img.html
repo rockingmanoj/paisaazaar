@@ -27,14 +27,14 @@
 }
 </style>
 
-<div class="deco">Paisaazar Documet Classificatio</div>
+<div class="deco">Paisabazaar AI</div>
 
 <button class="btn" type="button" onclick="init()">Start</button>
 
 <center><img id="test-image" width="300" height="300" src=""></img></center>
 
 <input type="file" id="pic" name="pic" accept="image/*">
-<input type="submit" onclick="predict()"> Click</input>
+<input type="submit" class="btn" onclick="predict()"></input>
 
 <br/>
 
@@ -52,7 +52,10 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "https://teachablemachine.withgoogle.com/models/Gq8D5RTg/";
+    // const URL = "https://teachablemachine.withgoogle.com/models/Gq8D5RTg/";
+    const URL="https://teachablemachine.withgoogle.com/models/KLB4nfkf/"
+    // const URL="https://teachablemachine.withgoogle.com/models/nQAyKI1G/"
+
 
     let model, maxPredictions;
 
